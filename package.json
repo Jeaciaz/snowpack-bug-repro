@@ -1,0 +1,28 @@
+{
+  "name": "snowpack-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@snowpack/plugin-webpack": "^2.3.1",
+    "babel-loader": "^8.2.2",
+    "core-js": "^2.6.12",
+    "snowpack": "^3.3.5",
+    "snowpack-plugin-rollup-bundle": "^0.4.4",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
