@@ -5,4 +5,4 @@ import style from './somefile.module.css'
 
 console.log(style);
 
-ReactDOM.render(<div>Fuck you</div>, document.getElementById('root'))
+ReactDOM.render(<div>Div text</div>, document.getElementById('root'))
